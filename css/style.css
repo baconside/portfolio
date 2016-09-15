@@ -84,6 +84,25 @@ h1, h2, h3, h4, h5, h6{
 	margin: 10px auto 30px auto;
 }
 
+.subtitulo-page h1{
+	font-size: 1.5em;
+	color: #373854;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.subtitulo-page:after{
+	content: "";
+	display: block;
+	width: 100px;
+	height: 4px;
+	background: #373854;
+	margin: -20px auto 30px auto;
+}
+
+
+
 /*==================================================FOR ALL SITE*/
 
 .header-home{
@@ -294,7 +313,52 @@ header label img{
 	font-size: .8em;
 }
 
+
+/*============================================================ ESTILIZAÇÃO DAS PÁGINAS*/
+.thumb-port{
+	position: relative;
+	text-align: center;
+	display: table;
+	margin-bottom: 20px;
+	background-color: #000;
+}
+
+.thumb-port h2{
+	position: absolute;
+	top: 120px;
+	left: 0;
+	right: 0;
+	text-transform: uppercase;
+	letter-spacing: .4em;
+	color: #fff;
+	font-size: 1.2em;
+	z-index: 10;
+}
+
+.barra-titulo{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	top: 100px;
+
+
+}
+
+.thumb-port h2:before, .thumb-port h2:after{
+	content: "";
+	display: block;
+	width: 100px;
+	height: 4px;
+	background-color: #fff;
+	margin: 0 auto;
+}
+
+
 /*============================================================MIDIAS*/
+
 @media (max-width: 768px){
 	header label img{
 		display: block;
