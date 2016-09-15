@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfólio</title>
+  <title>Contato</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/grid.css">
@@ -34,15 +34,55 @@
     </div>
   </header>
 
-   <h1>CONTATO</h1>
+<div class="titulo-page"><h1>Contato</h1></div> <!-- =====================Contato -->
 
+  <section class="container contato">
+    <div class="grid-10">
+      
+     
+    <form action="/pagina-processa-dados-do-form" method="post">
+      <div>
+          <label for="name">Nome:</label>
+          <input type="text" id="name" />
+      </div>
+      <div>
+          <label for="mail">E-mail:</label>
+          <input type="email" id="mail" />
+      </div>
+      <div>
+          <label for="msg">Mensagem:</label>
+          <textarea id="msg"></textarea>
+      </div>
+      <div class="button">
+          <button type="submit" class="btn btn-black">Enviar</button>
+      </div>
+    </form>
 
-  <footer class="footer">
+    </div><!-- ========================= Form -->
+
+    <div class="grid-6">
+      <h2>Contato</h2>
+      <ul class="info-contato">
+        <li>Telefone: (11) 97620-6009</li>
+        <li>E-mail: sirpc90@gmail.com</li>
+      </ul>
+
+      <ul class="sociais-contato">
+        <li><i i class="fa fa-facebook fa-2x" aria-hidden="true"></i></li>
+        <li><i i class="fa fa-github fa-2x" aria-hidden="true"></i></li>
+        <li><i i class="fa fa-instagram fa-2x " aria-hidden="true"></i> </li>
+      </ul>
+    </div><!-- Informações -->
+
+  </section>
+
+ <footer class="footer"><!-- ======================== FOOTER -->
     <div class="container">
+      <div class="grid-16">
       <p>&copy 2016 Todos os direitos reservados - JotaPê</p>
+      </div>
     </div>      
   </footer>
 
-  
 </body>
 </html>

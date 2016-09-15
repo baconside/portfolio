@@ -3,6 +3,11 @@ body{
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 16px;
 	line-height: 1.5;
+	text-rendering: optimizeLegibility;
+}
+
+i{
+	text-rendering: optimizeLegibility;
 }
 
 img{display:block;max-width:100%}
@@ -10,6 +15,7 @@ img{display:block;max-width:100%}
 h1, h2, h3, h4, h5, h6{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
+	text-rendering: optimizeLegibility;
 }
 
 .fa.box-itens{
@@ -401,6 +407,84 @@ header label img{
 	color: #222;
 }
 
+/*============================================================CONTATO*/
+
+form {
+    width: 100%;
+    padding: 1em;
+}
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    display: block;
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 4px;
+}	
+
+input, textarea {
+    display: block;
+	width: 100%;
+	border: 4px solid #12121C;
+	background: none;
+	padding: 7px 10px;
+	margin-bottom: 10px;
+	outline: none;
+	font-size: 14px;
+}
+
+input:focus, textarea:focus {
+    border-color: #444;
+}
+
+textarea {
+    display: block;
+	width: 100%;
+	height: 120px;
+	border: 4px solid #12121C;
+	background: none;
+	padding: 7px 10px;
+	margin-bottom: 20px;
+	outline: none;
+	font-size: 14px;
+}
+button{
+    padding: 7px 40px;
+	background: none;
+}
+
+.contato .btn .btn-black{
+	margin-top: -10px;
+}
+
+.contato .subtitulo{
+	font-size: 16px;
+}
+
+.contato .subtitulo:after{
+	width: 50px;
+	height: 2px;
+}
+
+.sociais-contato li{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.sociais-contato{
+	margin-top: 20px;
+}
+
+.info-contato{
+	font-size: 16px;
+}
+
+.contato h2{
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
 
 /*============================================================MIDIAS*/
 
