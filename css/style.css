@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6{
 	font-weight: 700;
 }
 
-.fa{
+.fa.box-itens{
 	color: #fff;
 	margin-bottom: 20px;
 	width: 100%;
@@ -83,25 +83,6 @@ h1, h2, h3, h4, h5, h6{
 	background: #373854;
 	margin: 10px auto 30px auto;
 }
-
-.subtitulo-page h1{
-	font-size: 1.5em;
-	color: #373854;
-	text-transform: uppercase;
-	text-align: center;
-	margin-bottom: 20px;
-}
-
-.subtitulo-page:after{
-	content: "";
-	display: block;
-	width: 100px;
-	height: 4px;
-	background: #373854;
-	margin: -20px auto 30px auto;
-}
-
-
 
 /*==================================================FOR ALL SITE*/
 
@@ -315,6 +296,25 @@ header label img{
 
 
 /*============================================================ ESTILIZAÇÃO DAS PÁGINAS*/
+
+.titulo-page h1{
+	font-size: 1.5em;
+	color: #373854;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.titulo-page:after{
+	content: "";
+	display: block;
+	width: 100px;
+	height: 4px;
+	background: #373854;
+	margin: -20px auto 30px auto;
+}
+
+
 .thumb-port{
 	position: relative;
 	text-align: center;
@@ -354,6 +354,51 @@ header label img{
 	height: 4px;
 	background-color: #fff;
 	margin: 0 auto;
+}
+
+.grid-16.com-amor{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: #c9c9c9;
+	margin: 20px 0 40px 0;
+}
+
+/*============================================================SOBRE*/
+.sobre-thumb{
+	text-align: center;
+}
+.sobre-thumb img{
+	width: 150px;
+	border-radius: 50%;
+	margin: 20px auto;
+}
+
+.skill, .sobre-descricao{
+	height: auto;
+	padding: 20px;
+	background-color: #f9f9f9;
+	margin: 50px 0;
+}
+
+.sub{
+	letter-spacing: .3em;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.skill ul{
+	margin-bottom: 20px;
+}
+
+.sociais li{
+	display: inline-block;
+	padding-right: 20px;
+	color: #c9c9c9;
+	transition: all .3s ease-in-out;
+}
+.sociais li:hover{
+	color: #222;
 }
 
 
